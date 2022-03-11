@@ -32,8 +32,8 @@
 
     <body>
         <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light px-5">
-                <a class="navbar-brand" href="#">Mijan Insta-Sohor</a>
+            <nav class="navbar navbar-expand-lg navbar-light bg-secondary px-5">
+                <a class="navbar-brand text-white fw-bold" href="#"><img width="50px" height="50px" src="img/logo.png" alt="">Insta-Sohor</a>
                 <button
                     class="navbar-toggler"
                     type="button"
@@ -76,8 +76,45 @@
             <div id="reported">
                 <h1>Reported posts</h1>
             </div>
+            <section class="py-3">
+                <article class="m-4">
+                    <h3><code>How does js work?</code></h3>
+                    <p> <span> <b>Ans:</b> </span> js is a hiegh level, single threaded programming language which means that it can handle one task at a time or. It's an interpreted programming language and like most scripting languages  it uses dynamic typing, where type safety is verified at the runtime. It works with html and css. Javascript make a website interactive Dynamic. It clint and surver side language.
+                    </p>
+                </article>
+                
+                <article class="m-4">
+                    <h4> <code>Local Storage and Session Storage Difference</code></h4>
+                    <table class="table table-warning">                        
+                        <tbody>                               
+                            <tr>        
+                                <td colspan="2" class="table-active"><h4><code>Local Storage</code> </h4>
+                                    <p>1. Storage size 5mb - 10mb</p>
+                                    <p>2. Data doesn't exipire after a session ends.</p>
+                                    <p>3. Data doesn't disapper until the user deletes it.</p>
+                                    <p>4. Sometimes harmful for security issues.</p>
+                                    <p>5. It works all tab in browser</p>
+                                </td>
+                                <td>
+                                    <h4><code>Session Storage</code></h4>
+                                    <p>1. Storage size 5mb</p>
+                                    <p>2. Data disappears after a session ends.</p>
+                                    <p>3. Each new tab creates a new session for the same URL.</p>
+                                    <p>4. If a tab is copied to a new tab the session storage is also copied.</p>
+                                    <p>5. I works selected tab. When tab close session data will deleted</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </article>
+            </section>
         </main>
-        <footer></footer>
+        <footer class="bg-secondary py-3">
+            <div class="container text-center mx-auto text-white">
+                <img src="img/logo.png" width="40px" height="40px" alt="">
+                <small>&copy; Mijan Insta-Sohor</small>
+            </div>
+        </footer>
 
         <!-- add javascript  file  -->
         <script src="./js/app.js"></script>
